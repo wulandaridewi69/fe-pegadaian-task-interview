@@ -5,8 +5,9 @@ import Layout from '../component/Layout'
 
 const Detail = () => {
 
-    const [data, setData] = useState({})
     const [loading, setLoading] = useState(true)
+    
+    const [data, setData] = useState({})
     const params = useParams()
     
     useEffect(() => {
