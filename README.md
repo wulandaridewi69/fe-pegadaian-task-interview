@@ -38,7 +38,7 @@ http://localhost:3000/data
 ```
 
 ##### Detail [ /data/{id} ]
-`GET` /data
+`GET` /data/{id}
 
 - API fetch : 
 ```
