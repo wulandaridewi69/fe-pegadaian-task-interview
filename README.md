@@ -36,15 +36,6 @@ For users with Pro API Key, please use this root URL to make API request: http:/
 ```
 http://localhost:3000/data
 ```
-- Response :
-```
-cache-control: public,max-age=300 
- Content-type: application/json; charset=utf-8 
- Expires: Tue,30 Aug 2022 06:50:25 GMT
-Code : 200
-Description : List all coins with market data
-
-```
 
 ##### Detail [ /data/{id} ]
 `GET` /data
